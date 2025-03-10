@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "./App.css";
-import ContactForm from "./components/contactForm/ContactForm";
-import SearchBox from "./components/searchBox/SearchBox";
-import ContactList from "./components/contactList/ContactList";
-import Options from "./components/options/Options";
+import ContactForm from "./components/ContactForm/ContactForm";
+import SearchBox from "./components/SearchBox/SearchBox";
+import ContactList from "./components/ContactList/ContactList";
+import Options from "./components/Options/Options";
 import contactsData from "./contacts.json";
 
 function App() {
